@@ -1,0 +1,3 @@
+#!/bin/zsh
+defaults write -g com.apple.keyboard.fnState -int $((!$(defaults read -g com.apple.keyboard.fnState)))
+/System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/activateSettings -u

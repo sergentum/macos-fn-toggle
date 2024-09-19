@@ -1,0 +1,1 @@
+So that's just a script wrapped in dir structure that Macos expects to treat it like an app.
